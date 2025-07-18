@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>anandsuthar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    anandsuthar
+  </header>
+
+  <div class="gallery">
+    <img src="https://source.unsplash.com/random/800x600?sig=1" alt="Gallery Image 1">
+    <img src="https://source.unsplash.com/random/800x600?sig=2" alt="Gallery Image 2">
+    <img src="https://source.unsplash.com/random/800x600?sig=3" alt="Gallery Image 3">
+    <img src="https://source.unsplash.com/random/800x600?sig=4" alt="Gallery Image 4">
+    <img src="https://source.unsplash.com/random/800x600?sig=5" alt="Gallery Image 5">
+    <img src="https://source.unsplash.com/random/800x600?sig=6" alt="Gallery Image 6">
+  </div>
+
+  <footer>
+    &copy; 2025 anandsuthar. All rights reserved.
+  </footer>
+</body>
+</html>
